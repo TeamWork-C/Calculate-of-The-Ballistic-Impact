@@ -3,7 +3,7 @@
 
 double g = 9.8;
 
-double height(double V0, int angle, int print)
+void hei_dis(double V0, int angle, int print)
 {
 	if(print == 1)
 		{
@@ -17,17 +17,5 @@ double height(double V0, int angle, int print)
 
 double time(double V0, int angle)
 {
-	
-}
-
-double distance(double V0, int angle, int print)
-{
-	if(print == 1)
-		{
-			for( ; ; )
-				{
-					
-				}
-		}
 	
 }

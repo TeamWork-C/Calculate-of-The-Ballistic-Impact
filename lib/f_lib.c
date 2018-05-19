@@ -17,5 +17,5 @@ void hei_dis(double V0, int angle, int print)
 
 double time(double V0, int angle)
 {
-	
+	return (2*V0*sin(angle))/g;
 }

@@ -10,4 +10,4 @@ void hei_dis(double V0, int angle, int print);
 /*
 Compute the time of flight
 */
-double time(double V0, int angle);
+void time(double V0, int angle);

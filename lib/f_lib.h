@@ -7,7 +7,8 @@ Compute the max-distance and max-heightby using the initial-speed (V0) and the a
 */
 void hei_dis(double V0, int angle, int print);
 
-/*
-Compute the time of flight
-*/
-void time(double V0, int angle);
+double height(double V0, int angle, int print, double t);
+
+double distance(double V0, int angle, int print, double t);
+
+double time(double V0, int angle);

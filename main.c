@@ -30,45 +30,7 @@ int main()
 
     switch(x)
     {
-        case    1:
-            switch(y)
-            {
-                case 1:
-                    hei_dis(V0, angle, 1);
-                    break;
-
-                case 2:
-                    hei_dis(V0, angle, 0);
-                    break;
-
-                default:
-                    printf("Wrong choice, please run this program again.");
-            }
-            break;
-
-        case    2:
-            time(V0, angle);
-            break;
-
-        case    3:
-            switch(y)
-            {
-                case 1:
-                    hei_dis(V0, angle, 1);
-                    time(V0, angle);
-                    break;
-
-                case 2:
-                    hei_dis(V0, angle, 0);
-                    time(V0, angle);
-                    break;
-
-                default:
-                    printf("Wrong choice, please run this program again.");
-            }
-
-        default:
-            printf("Wrong choice, please run this program again.");
+        
     }
     return 0;
 }

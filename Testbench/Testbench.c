@@ -27,21 +27,21 @@ int main()
     {
         printf("Do you need the data stream?\n1.Yes 2.No\n");
         scanf_s("%d",&print);
-    }
-	switch (x)
-	{
+    	switch (x)
+		{
 		case 1:
-			hei_dis(V0, angle, print);
-		case 2:
-			time(V0, angle);
+			hei_dis(V0, angle, print);		
 		case 3:
 			hei_dis(V0, angle, print);
-			time(V0, angle);
-		default:
-			printf("No valid choice!\nNow quit...");
-			break;
+			printf("The flight time is %lf\n",time(V0, angle));
+		}
 	}
-    
+	if(x == 2)
+	{
+		printf("The flight time is %lf\n", time(V0, angle));
+	}
+	else
+		printf("No valid choice!\nNow quit...");
 
     return 0;
 }

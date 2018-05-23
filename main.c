@@ -4,6 +4,8 @@
 double V0;
 int angle;
 
+void hei_dis(double V0, int angle, int print);
+
 int main()
 {
     printf("Calculate of The Ballistic Impact\n");
@@ -19,18 +21,41 @@ int main()
     printf("Please input the angle\n");
     scanf("%d",&angle);
 
-    int x,y;
+    int x,print;
     printf("What do you want?\n1.Height and distance 2.time 3.both");
     scanf("%d", &x);
     if(x == 1 || x == 3)
     {
         printf("Do you need the data stream?\n1.Yes 2.No\n");
-        scanf("%d",&y);
+        scanf("%d",&print);
     }
 
-    switch(x)
-    {
-        
-    }
+    hei_dis(V0, angle, print);
+
     return 0;
+}
+
+void hei_dis(double V0, int angle, int print)
+{
+	switch(print)
+	{
+		case 1:
+			double hei = height(V0, angle, print, 0);
+			double dis = distance(V0, angle, print, 0);
+			printf("The max_height is %lf meter(s)\n", hei);
+			printf("The max_distance is %lf meter(s)\n", dis);
+			break;
+		case 2:
+			double max_t = time(V0, angle);
+			unsigned double height;
+			double distance;
+			for(float t = 0.25;t <= max_t; t = t + 0.25)
+			{
+				height = 
+				distance = 
+			}
+			break;
+		default:
+			printf("No valid choice!\nNow quit...");
+	}
 }

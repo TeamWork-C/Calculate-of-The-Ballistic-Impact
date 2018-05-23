@@ -51,8 +51,8 @@ void hei_dis(double V0, int angle, int print)
 			double distance;
 			for(float t = 0.25;t <= max_t; t = t + 0.25)
 			{
-				height = 
-				distance = 
+				height = height(V0, angle, print, t);
+				distance = distance(V0, angle, print, t);
 			}
 			break;
 		default:

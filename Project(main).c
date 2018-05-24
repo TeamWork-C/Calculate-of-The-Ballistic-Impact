@@ -1,8 +1,8 @@
 #include <stdio.h>/*this line states the library I am going to refer */
 #include <math.h>
+#include "Projectfine.h"
 
-void fine(int a, int wo, double v);
-void how(int a, int wo, double v);
+
 
 int a,wo;
 double v;
@@ -22,11 +22,11 @@ int main()
     scanf("%d",&a);
     
     
-    if(wo=1){
-        fine(a,wo,v);
+    if(wo==1){
+        fine(a,v);
     }
     else{
-        how(a,wo,v);
+        how(a,v);
     }
     
 

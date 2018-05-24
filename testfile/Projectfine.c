@@ -1,6 +1,5 @@
-#include <stdio.h>
-#include <math.h>
 #include "Projectfine.h"
+#include "stdafx.h"
 #define pi 3.14159265359
 #define g 9.8
 

@@ -1,0 +1,6 @@
+﻿  Projectfine.c
+  main.c
+f:\calculate-of-the-ballistic-impact\testfile\main.c(21): warning C4013: “fine”未定义；假设外部返回 int
+f:\calculate-of-the-ballistic-impact\testfile\main.c(24): warning C4013: “how”未定义；假设外部返回 int
+  正在生成代码...
+  testfile.vcxproj -> F:\Calculate-of-The-Ballistic-Impact\testfile\Debug\testfile.exe
